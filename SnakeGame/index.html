@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game </title>
+    <link rel="stylesheet" href="css/style.css">
+   
+
+    <script src="https://kit.fontawesome.com/d44a5a5439.js" crossorigin="anonymous"></script>
+  
+
+</head>
+<body id="ram" onload="cute()">
+    <h1 id="res">Please Play this game only on Full-Screen Desktop</h1>
+<div class="body">
+      <button id="mt" onclick="muted()"><i class="fa-solid fa-volume-xmark"></i> </button>
+        <div id="scoreBox">Score: 0</div>
+        <div id="board">
+        </div>
+        <footer class="copyrite"> 
+            <h1><span>L</span><i id="i">IPIKA</i> Welcome's You</h1>
+            <lable for="ran" id="a">Please type a level in range 1 to 50 </lable>
+            <input type="number"  min="1" max="50" onchange="changethespeed(this)">
+            <h1 id="play">To play please tap on the board</h1>
+            <p>Copyight &copy  Made with  Love<i class="fa-solid fa-heart"></i> by using HTML ,CSS & javascipt.</p></footer>
+
+  
+</div>
+</body>
+<script src="js/index.js"></script>
+</html>
+<!-- <i class="fa-solid fa-volume-xmark"></i> -->

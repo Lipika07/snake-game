@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    height:10px;
+    width:10px;
+    color:rgb(0, 0, 0);
+    background-color: inherit;
+    border:none;
+    position: absolute;
+    top: 15px;
+    left: 400px;
+   
+}
+button:hover{
+    color:red;
+}
+.fa-solid{
+    font-size: 40px;
+    /* margin: 1px */
+    /* padding-right: 220px; */
+}
+.body{
+    background-image:url("https://enchttps://wallpaperaccess.com/full/537582.jpgrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ8B-WS36fTOCbpbISBWz9dQSz602d5J-frQ&usqp=CAU"); 
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+
+span{
+    color: #ff2a00;
+}
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    left: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+input{
+    height: 40px;
+    width: 55px;
+}
+.copyrite{
+    width: 100%;
+    text-align: center;
+    /* padding:25PX 0 ; */
+    padding-left: 15px;
+    font-size: 20px;
+    text-shadow: 2px 2px #685098;
+  
+  }
+  #play{
+    color:red;
+    text-shadow: 2px 2px #00ff3c;
+    display:block;
+  }
+  label{
+    margin-left: 40px;
+  }
+  .copyrite .fa-solid{
+    color: #ff2a00;
+    font-size: 30px;
+  }
+  #a{
+    color: #000000;
+    font-size: 30px;
+  }
+  p{
+    margin-top: 550px;
+    padding-top: 15px;
+ position: absolute;
+ bottom: 5px;
+left: 300px; 
+  }
+
+#hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#board{
+    background-image: url("https://wallpapercave.com/wp/wp2409719.jpg");
+    width:100vmin;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 82vmin;    border: 2px solid black;
+    display: grid;
+    margin-top: 28px;
+    margin-left: 150px;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    border-radius: 14px;
+    box-shadow: 10px 10px 15px rgb(109, 159, 60);
+
+  
+}
+
+.head{
+    background: linear-gradient(rgb(0, 255, 13), rgb(248, 248, 248));
+    border: 2px solid rgb(34, 4, 34); 
+    transform: scale(1.02);
+    border-radius: 40%;
+}
+
+.snake{
+    background-color: rgb(17, 9, 17);
+    /* border: .25vmin solid rgb(255, 0, 0); */
+    border-radius: 50%;
+    border: 2px dotted rgb(0, 254, 34);
+}
+
+.food{
+    background: linear-gradient(orange,yellow);
+    /* background: linear-gradient(rgb(251, 113, 0), purple); */
+    background-position: cover;
+    background-repeat: no-repeat
+;
+    border: .25vmin dotted rgb(255, 170, 0);
+    text-align:center;
+    border-radius: 100%;
+}
+/* #ram{
+    display: hidden;
+    background-attachment: fixed;
+    background-image: url("../img/bg.jpg");
+    text-align: center;
+ } */
+ #res{
+    display: none;
+ }
+@media only screen and (max-width:912px){
+ .body{
+    display: none;
+ }
+ #ram{
+    background-attachment: fixed;
+    background-image: url("../img/bg.jpg");
+    text-align: center;
+ }
+ #res{
+    display: block;
+    margin-top: 50%;
+    font-size: 50px;
+ }
+}
